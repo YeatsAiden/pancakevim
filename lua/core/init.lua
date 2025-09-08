@@ -1,3 +1,4 @@
-require("core.packer")
 require("core.options")
 require("core.remap")
+require("core.autocmds")
+require("core.lazy")
