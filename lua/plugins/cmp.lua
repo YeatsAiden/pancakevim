@@ -28,7 +28,9 @@ return {
             },
             window = {
                 completion = cmp.config.window.bordered(),
-                documentation = cmp.config.window.bordered(),
+                documentation = cmp.config.window.bordered({
+                    max_width = 40,
+                }),
             },
             performance = {
                 max_view_entries = 10,
